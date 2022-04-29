@@ -1,0 +1,81 @@
+
+<!doctype html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css'%}">
+</head>
+<body>
+    <header>
+        <div id="logo" onclick="slowScroll('#main')">
+            <a href="/"><span>Резидеция - Актана</span></a>
+        </div>
+        <div id="about">
+            
+            <a href="#" onclick="slowScroll('#faq')"></a>
+        </div>
+    </header>
+    <div id="top">
+        <div class="teext">
+            <h1>РЕЗИДЕНЦИЯ</h1>
+            <h6>Актан Арым Кубат</h6>
+        </div>
+        <div class="kamera">
+            <div class="ko">
+                <a href="info" class="aqs"><img src="../../static/css/img/rak.png"  alt="жестко" class="rud"></a>
+                <a href="test" class="aqs"><img src="../../static/css/img/kalpak.png"  alt="жестко" class="rud"></a>
+                <a href="vet" class="aqs"><img src="../../static/css/img/vetr.png"  alt="жестко" class="rud"></a>
+                <div class="ph">
+                    <a href="inffo" class="aqs"><img src="../../static/css/img/Untitledtext.png" alt="жестко" class="rud"></a>
+                </div>
+                <a href="kart" class="aqs"><img src="../../static/css/img/Untitledzzzz (1).png" alt="жестко" class="rud"></a>
+                <a href="kino" class="aqs"><img src="../../static/css/img/Untitledkino (2).png"  alt="жестко" class="rud"></a>
+                <a href="pict" class="aqs"><img src="../../static/css/img/Untitledpict.png"  alt="жестко" class="rud"></a>
+                <a href="disc" class="aqs"><img src="../../static/css/img/Untitleddisc.png"  alt="жестко" class="rud"></a>
+                <a href="chedo" class="aqs"><img src="../../static/css/img/Untitledchedo.png"  alt="жестко" class="rud"></a>
+                <a href="stoi" class="aqs"><img src="../../static/css/img/Untitledstoi.png"  alt="жестко" class="rud"></a>
+                <a href="velo" class="aqs"><img src="../../static/css/img/Untitledvelo.png"  alt="жестко" class="rud"></a>
+                <a href="leo" class="aqs"><img src="../../static/css/img/Untitledleop.png"  alt="жестко" class="rud"></a>
+                <a href="kmn" class="aqs"><img src="../../static/css/img/Untitledkmn.png"  alt="жестко" class="rud"></a>
+                <a href="ben" class="aqs"><img src="../../static/css/img/Untitledben.png"  alt="жестко" class="rud"></a>
+                <a href="lev" class="aqs"><img src="../../static/css/img/Untitledlev.png"  alt="жестко" class="rud"></a>
+                <a href="tay" class="aqs"><img src="../../static/css/img/Untitledtay.png"  alt="жестко" class="rud"></a>
+                <a href="kmr" class="aqs"><img src="../../static/css/img/Untitledkmr.png"  alt="жестко" class="rud"></a>
+                <a href="dvr" class="aqs"><img src="../../static/css/img/Untitleddv.png"  alt="жестко" class="rud"></a>
+                <a href="kvr" class="aqs"><img src="../../static/css/img/Untitledkover.png"  alt="жестко" class="rud"></a>
+                <a href="selk" class="aqs"><img src="../../static/css/img/selkin.png"  alt="жестко" class="rud"></a>
+                <a href="bat" class="aqs"><img src="../../static/css/img/batink.png"  alt="жестко" class="rud"></a>
+                <a href="#" class="aqs"><img src="../../static/css/img/rak.png"  alt="жестко" class="rud"></a>
+                <a href="#" class="aqs"><img src="../../static/css/img/kalpak.png"  alt="жестко" class="rud"></a>
+                <a href="#" class="aqs"><img src="../../static/css/img/vetr.png"  alt="жестко" class="rud"></a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        function slowScroll(id) {
+            $('html', 'body').animate({
+                scrollTop: $(id).offset().top
+            }, 500);
+        }
+
+        $(document).on("scroll", function () {
+            if($(window).scrollTop() === 0)
+                $("header").removeClass("fixed")
+            else
+                $("header").attr("class", "fixed")
+        })
+    </script>
+</body>
+</html>

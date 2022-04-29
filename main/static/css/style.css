@@ -1,0 +1,895 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&family=Montserrat&family=Roboto+Condensed:wght@300&family=Suez+One&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body, html {
+    width: 100%;
+}
+
+body {
+    background-color: #000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    width: 100%;
+    padding: 10px 0.5% 0px 0.5%;
+    background: transparent;
+    float: left;
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    
+}
+
+header #logo {
+    color: #fff;
+    cursor: pointer;
+    
+    
+}
+
+header #logo span {
+    color: #fff;
+    font-size: 1.7em;
+    line-height: 45px;
+    margin-left: 40px;
+    font-family: 'Suez One', serif;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+
+@media (min-width: 700px) {
+    #logo {
+        float: left;
+        width: 30%;
+        font-size: 1.1em;
+    }
+
+    #about {
+        float: right;
+        width: 67%;
+    }
+}
+
+@media (max-width: 700px) {
+    #logo {
+        margin-top: 15px;
+        width: 100%; 
+        font-size: 1.5em;
+    }
+    #about {
+        float: left;
+        width: 100%;
+    }
+}
+
+#about {
+    text-align: center;
+    font-size: 1em;
+    line-height: 40px;
+    margin-bottom: 10px;
+    
+}
+
+#about > a {color: #fff}
+
+#about > a:hover {
+    color: #f3f3f3;
+    text-decoration: underline;
+}
+
+#about > a:not(:last-child) {
+    margin-right: 7%;
+}
+
+.fixed {
+    background-color: rgb(0, 0, 0);
+}
+
+header.fixed #logo{
+    color: #343434;
+}
+
+.fixed #about a{color: #fff}
+.fixed #about a:hover {color: #7c7c7c}
+
+
+/* Главный блок */
+
+
+#top {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    width: 100%;
+    background-blend-mode: multiply;
+    background-image: url(img/Untitled3.png);
+    background-color: #6f6f70;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: #fff;
+    /* font-size: 3em; */
+}
+
+.teext {
+    position: fixed;    
+    width: 1200px;
+    height: 104px;
+    left: 460px;
+    top: 480px;
+
+
+    /* font-style: normal; */
+    /* font-weight: normal; */
+    font-size: 60px;
+    line-height: 104px;
+}
+.teext h6 {
+    position: fixed;    
+    width: 1200px;
+    height: 104px;
+    left: 710px;
+    top: 810px;
+    color: #a3a3a3;
+
+
+    /* font-style: normal; */
+    /* font-weight: normal; */
+    font-size: 40px;
+    line-height: 104px;
+}
+
+.rud{
+    margin-left: 250px;
+    width: 350px;
+    border-radius: 5px;
+    vertical-align: bottom;
+} 
+.kamera {
+    width: 600px;
+    /* left: 200px; */
+    left: 400px;
+    overflow-y: hidden;   
+    white-space: normal;
+}
+/* @media (min-width: 1001px) {
+    .teext {
+        font-size: 40px;
+        position: fixed;
+    }
+} */
+.ko {
+    margin-top: 55px;
+    width: 100%;
+    left: 200px;
+
+}
+
+
+@media (max-width: 1502px) and (min-width: 1401px) {
+    .teext {
+        font-size: 53px;
+        padding-top: 5%;
+        height: 0px;
+        position: fixed;
+        left: 10px;
+        text-align: right;
+        top: 300px;
+    }
+    .teext h6{
+        top: 680px;
+        left: 0px;
+        font-size: 40px;
+    }
+    .kamera{
+        width: 400px;
+    }
+    .rud{
+        width: 300px;
+        margin-left: 100px;
+
+    }
+}
+
+@media (max-width: 1400px) and (min-width: 1301px) {
+    .teext {
+        font-size: 55px;
+        padding-top: 5%;
+        height: 0px;
+        position: fixed;
+        left: 80px;
+        text-align: right;
+        top: 335px;
+    }
+    .teext h6{
+        top: 720px;
+        left: 70px;
+        font-size: 40px;
+    }
+
+    .kamera {
+        width: 450px;
+    }
+
+    .rud {
+        width: 313px;
+        margin-left: 90px;
+    }
+}
+
+
+
+@media (max-width: 1300px) and (min-width: 1201px) {
+    .teext {
+        font-size: 3.23em;
+        padding-top: 5%;
+        height: 0px;
+        position: fixed;
+        left: 5px;
+        text-align: right;
+        top: 310px;
+    }
+    .teext h6{
+        top: 690px;
+        left: -10px;
+    }
+    .kamera{
+        width: 450px;
+    }
+    .rud{
+        width: 300px;
+        margin-left: 40px;
+
+    }
+}
+
+
+
+@media (max-width: 1200px) and (min-width: 1135px) {
+    .teext {
+        font-size : 3em;
+        padding-top: 5%;
+        height: 500px;
+        position: fixed;
+        left: -70px;
+        text-align: right;
+        line-height: 52px;
+        top: 300px;
+
+    }
+    .teext h6{
+        top: 650px;
+        left: -80px; 
+    }
+    .kamera{
+        width: 385px;
+    }
+    .rud {
+        width: 280px;
+        margin-left: 100px;
+    }
+}
+
+
+
+@media (max-width: 1134px) and (min-width: 1085px) {
+    .teext {
+        font-size: 47px;
+        padding-top: 5%;
+        height: 642px;
+        position: fixed;
+        left: -111px;
+        line-height: 52px;
+        top: 303px;
+        text-align: right;
+
+    }
+    .teext h6{
+        font-size: 35px;
+        top: 640px;
+        left: -123px;
+    }
+    .kamera{
+        width: 380px;
+    }
+    .rud {
+        width: 280px;
+        margin-left: 57px;
+    }
+}
+@media (max-width: 1084px) and (min-width: 951px) {
+
+    .teext {
+        font-size : 2.45em;
+        margin-top: 5%;
+        height: 0px;
+        position: fixed;
+        left: 57px;
+        line-height: 52px;
+        top: 211px;
+
+    }
+    .teext h6{
+        top: 543px;
+        left: 172px;
+        font-size: 0.9em;
+    }
+    .kamera{
+        width: 350px;
+    }
+    .rud {
+        width: 230px;
+        margin-left: 95px;
+    }
+}
+
+@media (max-width: 950px) and (min-width: 907px) {
+
+    .teext {
+        font-size: 2.45em;
+        padding-top: 5%;
+        height: 500px;
+        position: fixed;
+        left: 14px;
+        line-height: 52px;
+        top: 211px;
+    }
+    .teext h6{
+        top: 543px;
+        left: 133px;
+        font-size: 0.9em;
+    }
+    .kamera{
+        width: 350px;
+    }
+    .rud {
+        width: 230px;
+        margin-left: 18px;
+    }
+}
+
+
+@media (max-width: 906px) and (min-width: 829px) {
+
+    .teext {
+        font-size: 2.29em;
+        padding-top: 5%;
+        height: 500px;
+        position: fixed;
+        left: -42px;
+        line-height: 52px;
+        top: 154px;
+    }
+    .teext h6{
+        top: 474px;
+        left: 65px;
+        font-size: 0.9em;
+    }
+    .kamera{
+        width: 350px;
+    }
+    .rud {
+        width: 200px;
+        margin-left: -18px;
+    }
+}
+
+@media (max-width: 828px) and (min-width: 722px) {
+
+    header{
+        height: 50px;
+    }
+    #logo{
+        margin-top: 0px;
+    }
+    #about{
+        line-height: 40px;
+    }
+
+    .teext {
+        font-size: 2em;
+        margin-top: 5%;
+        position: fixed;
+        left: -117px;
+        line-height: 52px;
+        top: 82px;
+    }
+    .teext h6{
+        top: 384px;
+        left: -5px;
+        font-size: 0.8em;
+    }
+    .kamera{
+        width: 270px;
+    }
+    .rud {
+        width: 160px;
+        margin-left: 30px;
+    }
+}
+
+
+
+
+@media (max-width: 721px) and (min-width: 678px) {
+    header{
+        height: 70px;
+    }
+    #logo{
+        margin-top: 5px;
+    }
+    #about{
+        margin-top: -37px;
+        margin-left: 112px;
+    }
+    .teext {
+        font-size: 1.5em;
+        padding-top: 5%;
+        height: 513px;
+        position: fixed;
+        left: -98px;
+        line-height: 52px;
+        top: 254px;
+
+    }
+    .teext h6{
+        top: 537px;
+        left: -98px;
+        font-size: 1.52em;
+    }
+    .kamera{
+        width: 300px;
+    }
+    .rud {
+        width: 243px;
+        margin-left: 48px;
+    }
+    .ko {
+        margin-top: 76px;
+    }
+}
+
+    #top h1 {
+        margin-top: 19.5%;
+    }
+
+    #top h3 {
+        color: #ccc;
+}
+
+
+@media (max-width: 677px) and (min-width: 588px) {
+
+    header{
+        height: 70px;
+    }
+    #logo{
+        margin-top: 5px;
+    }
+    #about{
+        margin-top: -37px;
+        margin-left: 112px;
+    }
+
+    .teext {
+        font-size: 1.3em;
+        padding-top: 5%;
+        height: 528px;
+        position: fixed;
+        left: -167px;
+        line-height: 52px;
+        top: 179px;
+    }
+    .teext h6{
+        top: 459px;
+        left: -166px;
+        font-size: 1.4em;
+    }
+    .kamera{
+        width: 270px;
+    }
+    .rud {
+        width: 204px;
+        margin-left: 23px;
+    }
+    .ko {
+        margin-top: 78px;
+    }
+}
+
+
+@media (max-width: 587px) and (min-width: 521px) {
+
+    header{
+        height: 70px;
+    }
+    #logo{
+        margin-top: 5px;
+    }
+    #about{ 
+        margin-top: -37px;
+        margin-left: 112px;
+    }
+
+    .teext {
+        font-size: 1.1em;
+        padding-top: 5%;
+        height: 528px;
+        position: fixed;
+        left: -216px;
+        line-height: 52px;
+        top: 134px;
+    }
+    .teext h6{
+        top: 406px;
+        left: -214px;
+        font-size: 1.5em;
+    }
+    .kamera{
+        width: 270px;
+    }
+    .rud {
+        width: 177px;
+        margin-left: -5px;
+    }
+    .ko {
+        margin-top: 78px;
+    }
+}
+
+@media (max-width: 520px) and (min-width: 452px) {
+
+    header{
+        height: 70px;
+    }
+    #logo{
+        margin-top: 5px;
+        font-size: 20px;
+    }
+    #about{
+        margin-top: -37px;
+        margin-left: 90px;
+    }
+
+    .teext {
+        font-size: 0.9em;
+        padding-top: 5%;
+        height: 528px;
+        position: fixed;
+        left: -262px;
+        line-height: 52px;
+        top: 99px;
+    }
+    .teext h6{
+        top: 364px;
+        left: -260px;
+        font-size: 1.5em;
+    }
+    .kamera{
+        width: 270px;
+    }
+    .rud {
+        width: 159px;
+        margin-left: -14px;
+    }
+    .ko {
+        margin-top: 78px;
+    }
+}
+
+@media (max-width: 451px) and (min-width: 426px) {
+
+    header{
+        height: 70px;
+    }
+    #logo{
+        margin-top: 5px;
+        font-size: 20px;
+    }
+    #about{
+        margin-top: -37px;
+        margin-left: 90px;
+    }
+
+    .teext {
+        font-size: 0.9em;
+        padding-top: 5%;
+        height: 528px;
+        position: fixed;
+        left: -284px;
+        line-height: 52px;
+        top: 154px;
+        font-family: 'Montserrat', serif;
+        font-weight: lighter;
+    }
+    .teext h6{
+        top: 414px;
+        left: -281px;
+        font-size: 1.5em;
+        font-family: 'Montserrat', serif;
+        font-weight: lighter;
+    }
+    .kamera{
+        width: 270px;
+    }
+    .rud {
+        width: 185px;
+        margin-left: -49px;
+    }
+    .ko {
+        margin-top: 78px;
+    }
+}
+
+@media (max-width: 425px) and (min-width: 320px) {
+    .teext {
+        display: none;
+    }   
+    .ph {
+        display: none;
+    }
+
+    .kamera {
+        width: 100%;
+    }
+
+    .rud {
+        width: 100%; 
+        margin-left: -2px;       
+    }
+
+    .ko {
+        margin-top: 80px;
+    }
+}
+
+
+
+
+
+
+/* Блок с вступлением */
+/* #main { 
+    float: left;
+    background-color: #f6f6f6;
+    border-top: 2px solid silver;
+    color: #484848;
+    font-size: 1.3em;
+}
+
+@media (min-width: 1401px) {
+    #main {
+        padding: 100px 20%;
+        width: 60%;
+    }
+}
+
+@media (min-width: 1400px) {
+    #main {
+        padding: 100px 10%;
+        width: 80%;
+    }
+}
+
+@media (max-width: 900px) {
+    #main div {
+        width: 98%!important;
+    }
+}
+
+#main div {
+    width: 48%;
+    margin-right: 2%;
+    float: left;
+}
+
+#main h2 {font-size: 3em;}
+#main span {color: #a0a0a0;} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Блок с фоточками */
+
+/* #overview {
+    float: left;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCRoXVsJ2lcl49SUldQxxG3-VAc7dhvzDqeA&usqp=CAU);
+
+    background-blend-mode: multiply;
+    background-color: rgb(175, 175, 175);
+    background-size: cover;
+    background-attachment: fixed;
+
+    padding: 100px 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+#overview h2 {font-size: 4em;}
+#overview span {color: #ccc; font-size: 1.5em;}
+
+#overview .img {
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+    margin-top: 50px;
+}
+
+#overview .img:nth-child(odd) {
+    margin-left: 18%;
+}
+
+#overview img {
+    background: #fafafa;
+    padding: 5px;
+    border: 2px solid silver;
+    width: 100%;
+    max-width: 500px;
+}
+
+#overview span {
+    float: left;
+    width: 100%;
+    font-size: 2em;
+    margin-left: 10px;
+}   
+
+@media (max-width: 700px) {
+    #overview .img {
+        width: 80%!important;
+        margin-right: 0!important;
+        margin-left: 10%!important;
+    }
+} */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', serif;
+    /* background-color: rgb(148, 148, 148); */
+    font-weight: lighter;
+}
+
+/* Блок с контактами */
+/* #contacts {
+    width: 100%;
+    float: left;
+    padding-bottom: 40px;
+    padding-top: 70px;
+    border-top: 4px solid #ccc;
+    background: #f4f4f4;
+}
+
+
+/* #contacts h5 {font-size: 3em; color: #505050;}
+
+
+#form_input {
+    margin-top: 15px;
+    width: 35%;
+    margin-left: 38%;
+    font-style: 1.1em;
+}
+
+#form_input label {
+    color: #505050;
+    cursor: pointer;
+    font-size: 1.4em;
+    font-family: 'Roboto Slab', serif;
+} */
+/* 
+#form_input label > span {
+    color: #e87e7e;
+}
+
+#form_input input,#form_input textarea{
+    margin-bottom: 10px;
+    width: 70%;
+    padding: 10px 2%;
+    border-radius: 7px;
+    border: 2px solid silver;
+    font-size: 0.9em;
+    color: #4a4a4a;
+}
+
+#form_input input:focus ,#form_input textarea:focus {
+    border-color: #333;
+} */
+
+
+/* .btn {
+    float: left;
+    border-radius: 5px;
+    padding: 5px 9px;
+    font-size: 1.2em;
+    background-color: #ec6550;
+    text-shadow: #454545 0 0 2px;
+    cursor: pointer;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+
+.btn:hover {
+    background-color: #c15443;
+} */
+
+
+/* тестовый блок */
+/* #test {
+    float: left;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCRoXVsJ2lcl49SUldQxxG3-VAc7dhvzDqeA&usqp=CAU);
+
+    background-blend-mode: multiply;
+    background-color: rgb(175, 175, 175);
+    background-size: cover;
+    background-attachment: fixed;
+
+    padding: 100px 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+#test h2 {font-size: 4em;}
+#test span {color: #ccc; font-size: 1.5em;}
+
+#test .photo {
+    float: left;
+    width: 30%;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+
+
+#test img {
+    background: #fafafa;
+    padding: 5px;
+    border: 2px solid silver;
+    width: 100%;
+    max-width: 500px;
+}
+
+#test span {
+    float: left;
+    width: 100%;
+    font-size: 2em;
+    margin-left: 10px;
+}   
+
+@media (max-width: 700px) {
+    #overview .photo {
+        width: 80%!important;
+        margin-right: 0!important;
+        margin-left: 10%!important;
+    }
+} */
+

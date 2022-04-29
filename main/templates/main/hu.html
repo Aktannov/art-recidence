@@ -1,0 +1,81 @@
+{% extends 'main/base.html' %}
+
+{% block title %}
+about
+{% endblock %}
+
+{% block content %}
+    <div id="photos">
+        <img src="../../static/css/img/zobil.jpg" alt="жалко у пчелки">
+    </div>
+    <div id="name">
+        <h1>Ракушка</h1>
+    </div>
+    <div id="desc">
+        <span>"Ракушка" - так хотели назвать "Селкинчек". Эти мысли витали на монтаже, ибо она была двигателем сюжета и катализатором всех персонажей. Монтажно-тонировочный период проводили на "Казахфильме", со мной был Эрнест Абдыжапаров и монтировала опытная Хадиша Урмурзина, за плечами которой была нашумевшая "Игла" Рашида Нугманова, а ей ассистировала Гуляим.
+            На днях Дарежан Омирбаев прислал фотографию за монтажным столом, он сейчас заканчивает свою новую картину и смотрю, рядом Гуляим, когда-то была ассистентом, а теперь монтирует неоклассику казахского кино. Дарежан, на самом деле, один из знаковых режиссёров, в ком органично сочетаются язык кино и его мировоззрение. И, что редкость на сегодня, скромный казах доброй души.
+            Уже заканчивали черновой вариант, когда на "Казахфильм" приехали директора крупнейших кинофестивалей Европы: Локарно - Марко Мюллер и Турина - Альберто Барбера. Они отсматривали фильмы казахских кинематографистов. Известный киновед и кинокритик Гульнара Абикеева посоветовала нам показать материал на любой стадии, подчеркивая, что это уникальная возможность. Мне казалось не совсем корректно выносить на суд незавершенную работу, но она нас убедила, давая понять, что это профессионалы. Когда с Эрнестом зашли в просмотровый зал, в центре сидели Марко и Альберто, нас встретил режиссёр Ермек Шинарбаев, с которым я был в Туре (Франция), где его картина "Месть" получила Гран При. Ермек свободно говорит на английском, французском, он представил нас и предупредил, что, скорее всего, будут смотреть одну или две части, так поступали со всеми предыдущими. Но наш шестидесятиминутный черновой монтаж, ещё и без звука, они, не отрываясь, посмотрели полностью и в конце дали свои визитки. Это означало, что им понравился. Кто-то из директоров спросил у меня, какие черно-белые фильмы я смотрел, не думая, сходу ответил: "Чапаев", те улыбнулись, а Ермек залился смехом, потом он эту историю рассказывал, как анекдот. Видимо, задавая вопрос, они подразумевали Одзу, Брессона... Иными словами, классику чёрного-белого кино. Я волновался, что пришло в голову, то и сказал. В разговоре речь зашла о том, как будет называться фильм, мы сказали, Ракушка.
+            Все шло к тому, чтобы назвать Ракушка. А ведь и съёмки не могли начать, до тех пор, пока не пришла идея с Ракушкой. Представляете, группа, находясь в экспедиции, больше десяти дней простаивала.
+            И все же, окончательная версия монтажа привела нас к "Селкинчеку", к тому же, это был первый фильм после распада СССР и нам так хотелось сделать, в нашем понимании, истинное кыргызкое кино и по принципу "целуется - не целуется", мы отказались от первоначального названия.
+            История с Ракушкой на этом не закончилась, по-моему в Акипрессе было интервью с одним из наших режиссёров, который назвал самой эротичной сценой в кыргызком кино, когда Девушка и Моряк слушают Ракушку и на крупном плане, Девушка руками нежно гладит её.
+            После нескольких лет выхода на экраны "Селкинчека", читая публикации о звуке, случайно обнаружил, что по мифологии, Ракушка является "губами Всевышнего" и тот, кто прислонит её к уху, услышит "голос Создателя".</span>
+            
+    </div>
+{% endblock %}
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet   " type="text/css" href="{% static 'css/info.css'%}">
+</head>
+<body>
+    <header>
+        <div id="logo" onclick="slowScroll('#main')">
+            <a href="/"><span>Kuntuu</span></a>
+        </div>
+        <div id="about">
+            <a href="#" title="Возможности" onclick="slowScroll('#main')">Возможности</a>
+            <a href="#" onclick="slowScroll('#faq')">museum</a>
+        </div>
+    </header>
+
+
+    <div id="photos">
+        <img src="../../static/css/img/wl.jpg" alt="жалко у пчелки" width="800px">
+    </div>
+
+    <div id="name">
+        <span>Japan</span>
+    </div>
+
+
+    <div id="desc">
+        <span>"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains." "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains."        </span>
+    </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        function slowScroll(id) {
+            $('html', 'body').animate({
+                scrollTop: $(id).offset().top
+            }, 500);
+        }
+
+        $(document).on("scroll", function () {
+            if($(window).scrollTop() === 0)
+                $("header").removeClass("fixed")
+            else
+                $("header").attr("class", "fixed")
+        })
+    </script>
+</body>
+</html> -->
