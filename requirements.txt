@@ -1,4 +1,4 @@
-django==4.0
+django
 python-decouple==3.5
 psycopg2-binary
 Celery
