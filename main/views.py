@@ -68,3 +68,12 @@ def selkin(request):
 
 def batink(request):
     return render(request, 'main/batinok.html') 
+
+def ang(request):
+    return render(request, 'main/angl.html') 
+
+def moto(request):
+    return render(request, 'main/moto.html') 
+
+def uli(request):
+    return render(request, 'main/uli.html') 

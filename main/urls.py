@@ -25,4 +25,7 @@ urlpatterns = [
     path('kvr', views.kvr),
     path('selk', views.selkin),
     path('bat', views.batink),
+    path('ang', views.ang),
+    path('moto', views.moto),
+    path('uli', views.uli),
 ]
