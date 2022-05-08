@@ -290,7 +290,7 @@ a {
         width: 405px;
         margin-left: 0px;
         text-align: center;
-        padding: 10px;
+        /* padding: 10px; */
     }
 
     #about {
@@ -302,12 +302,104 @@ a {
     }
 }
 
+@media (max-width: 403px) and (min-width: 401px){
+    #photos img {
+        position: absolute;
+        top: 77px;
+        width: 362px;
+        margin-left: 10px;
+        text-align: center;
+    }
 
-@media (max-width: 425px) and (min-width: 321px){
     #desc {
         position: absolute;
-        width: 345px;
-        left: 14px;
+        width: 348px;
+        left: 28px;
+        top: 415px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 49px;
+        text-align: justify;
+        color: white;
+    }
+}
+
+
+@media (max-width: 400px) and (min-width: 388px){
+    #photos img {
+        position: absolute;
+        top: 77px;
+        width: 355px;
+        margin-left: 10px;
+        text-align: center;
+    }
+
+    #desc {
+        position: absolute;
+        width: 340px;
+        left: 28px;
+        top: 415px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 49px;
+        text-align: justify;
+        color: white;
+    }
+
+    #about {
+        display: none;
+    }
+
+    header #logo {
+        margin-top: -10px;
+    }
+
+}
+
+@media (max-width: 387px) and (min-width: 360px){
+    #photos img {
+        position: absolute;
+        top: 77px;
+        width: 344px;
+        margin-left: 10px;
+        text-align: center;
+    }
+
+    #desc {
+        position: absolute;
+        width: 340px;
+        left: 28px;
+        top: 415px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 49px;
+        text-align: justify;
+        color: white;
+    }
+
+    #about {
+        display: none;
+    }
+
+    header #logo {
+        margin-top: -10px;
+    }
+
+}
+
+
+
+@media (max-width: 379px) and (min-width: 376px){
+    #desc {
+        position: absolute;
+        width: 348px;
+        left: 36px;
         top: 415px;
         font-family: Montserrat;
         font-style: normal;
@@ -340,10 +432,64 @@ a {
     #photos img {
         position: absolute;
         top: 77px;
-        width: 357px;
-        margin-left: 0px;
+        width: 362px;
+        margin-left: 21px;
         text-align: center;
-        padding: 10px
+
+    }
+
+    #about {
+        display: none;
+    }
+
+    header #logo {
+        margin-top: -10px;
+    }
+}
+
+
+
+@media (max-width: 375px) and (min-width: 330px){
+    #desc {
+        position: absolute;
+        width: 317px;
+        left: 25px;
+        top: 415px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 49px;
+        text-align: justify;
+        color: white;
+    }
+    header #about{
+        font-size: 22px;
+        margin-top: -35px;
+        margin-left: 80px;
+    }
+    #about > a:not(:last-child){
+        margin-right: 10px;
+    }
+    #name h1 {
+        position: absolute;
+    width: 500px;
+    left: 50px;
+    top: 570px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    }
+    #photos img {
+        position: absolute;
+        top: 77px;
+        width: 327px;
+        margin-left: 9px;
+        text-align: center;
+
     }
 
     #about {
@@ -359,8 +505,8 @@ a {
 @media (max-width: 320px) and (min-width: 290px){
     #desc {
         position: absolute;
-        width: 290px;
-        left: 14px;
+        width: 277px;
+        left: 21px;
         top: 357px;
         font-family: Montserrat;
         font-style: normal;
@@ -368,7 +514,7 @@ a {
         font-size: 14px;
         line-height: 49px;
         text-align: justify;
-        color: white;
+        color: white
     }
     header #about{
         font-size: 22px;
@@ -393,10 +539,10 @@ a {
     #photos img {
         position: absolute;
         top: 77px;
-        width: 300px;
-        margin-left: 0px;
+        width: 287px;
+        margin-left: 6px;
         text-align: center;
-        padding: 10px
+        padding: 10px;
     }
 
     #about {
