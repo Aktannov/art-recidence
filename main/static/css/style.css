@@ -99,7 +99,7 @@ a {
 }
 
 #about > a:not(:last-child) {
-    margin-right: 7%;
+    margin-right: 9%;
 }
 
 .fixed {
@@ -132,10 +132,10 @@ header.fixed #logo{
 
 .teext {
     position: fixed;    
-    width: 1200px;
+    /* width: 1200px; */
     height: 104px;
-    left: 460px;
-    top: 480px;
+    left: 620px;
+    top: 714px;
 
 
     /* font-style: normal; */
@@ -191,9 +191,9 @@ header.fixed #logo{
         padding-top: 5%;
         height: 0px;
         position: fixed;
-        left: 10px;
+        left: 420px;
         text-align: right;
-        top: 300px;
+        top: 542px;
     }
     .teext h6{
         top: 680px;
@@ -216,9 +216,9 @@ header.fixed #logo{
         padding-top: 5%;
         height: 0px;
         position: fixed;
-        left: 80px;
+        left: 458px;
         text-align: right;
-        top: 335px;
+        top: 574px;
     }
     .teext h6{
         top: 720px;
@@ -244,9 +244,9 @@ header.fixed #logo{
         padding-top: 5%;
         height: 0px;
         position: fixed;
-        left: 5px;
+        left: 427px;
         text-align: right;
-        top: 310px;
+        top: 550px;
     }
     .teext h6{
         top: 690px;
@@ -266,14 +266,14 @@ header.fixed #logo{
 
 @media (max-width: 1200px) and (min-width: 1135px) {
     .teext {
-        font-size : 3em;
+        font-size: 3em;
         padding-top: 5%;
         height: 500px;
         position: fixed;
-        left: -70px;
+        left: 413px;
         text-align: right;
         line-height: 52px;
-        top: 300px;
+        top: 540px;
 
     }
     .teext h6{
@@ -297,9 +297,9 @@ header.fixed #logo{
         padding-top: 5%;
         height: 642px;
         position: fixed;
-        left: -111px;
+        left: 382px;
         line-height: 52px;
-        top: 303px;
+        top: 543px;
         text-align: right;
 
     }
@@ -323,9 +323,9 @@ header.fixed #logo{
         margin-top: 5%;
         height: 0px;
         position: fixed;
-        left: 57px;
+        left: 361px;
         line-height: 52px;
-        top: 211px;
+        top: 442px;
 
     }
     .teext h6{
@@ -349,9 +349,9 @@ header.fixed #logo{
         padding-top: 5%;
         height: 500px;
         position: fixed;
-        left: 14px;
+        left: 323px;
         line-height: 52px;
-        top: 211px;
+        top: 449px;
     }
     .teext h6{
         top: 543px;
@@ -386,9 +386,9 @@ header.fixed #logo{
         padding-top: 5%;
         height: 500px;
         position: fixed;
-        left: -42px;
+        left: 283px;
         line-height: 52px;
-        top: 154px;
+        top: 393px;
     }
     .off {
         display: none;
@@ -429,9 +429,9 @@ header.fixed #logo{
         font-size: 2em;
         margin-top: 5%;
         position: fixed;
-        left: -117px;
+        left: 251px;
         line-height: 52px;
-        top: 82px;
+        top: 316px;
     }
     .teext h6{
         top: 384px;
@@ -471,9 +471,9 @@ header.fixed #logo{
         padding-top: 5%;
         height: 513px;
         position: fixed;
-        left: -98px;
+        left: 319px;
         line-height: 52px;
-        top: 254px;
+        top: 492px;
 
     }
     .teext h6{
@@ -493,9 +493,9 @@ header.fixed #logo{
     }
 }
 
-    #top h1 {
+    /* #top h1 {
         margin-top: 19.5%;
-    }
+    } */
 
     #top h3 {
         color: #ccc;
@@ -524,9 +524,9 @@ header.fixed #logo{
         padding-top: 5%;
         height: 528px;
         position: fixed;
-        left: -167px;
+        left: 276px;
         line-height: 52px;
-        top: 179px;
+        top: 418px;
     }
     .teext h6{
         top: 459px;
@@ -568,9 +568,9 @@ header.fixed #logo{
         padding-top: 5%;
         height: 528px;
         position: fixed;
-        left: -216px;
+        left: 255px;
         line-height: 52px;
-        top: 134px;
+        top: 373px;
     }
     .teext h6{
         top: 406px;
@@ -612,9 +612,9 @@ header.fixed #logo{
         padding-top: 5%;
         height: 528px;
         position: fixed;
-        left: -262px;
+        left: 233px;
         line-height: 52px;
-        top: 99px;
+        top: 336px;
     }
     .teext h6{
         top: 364px;
@@ -657,9 +657,9 @@ header.fixed #logo{
         padding-top: 5%;
         height: 528px;
         position: fixed;
-        left: -284px;
+        left: 212px;
         line-height: 52px;
-        top: 154px;
+        top: 389px;
         font-family: 'Montserrat', serif;
         font-weight: lighter;
     }
@@ -711,244 +711,11 @@ header.fixed #logo{
 
 
 
-
-
-/* Блок с вступлением */
-/* #main { 
-    float: left;
-    background-color: #f6f6f6;
-    border-top: 2px solid silver;
-    color: #484848;
-    font-size: 1.3em;
-}
-
-@media (min-width: 1401px) {
-    #main {
-        padding: 100px 20%;
-        width: 60%;
-    }
-}
-
-@media (min-width: 1400px) {
-    #main {
-        padding: 100px 10%;
-        width: 80%;
-    }
-}
-
-@media (max-width: 900px) {
-    #main div {
-        width: 98%!important;
-    }
-}
-
-#main div {
-    width: 48%;
-    margin-right: 2%;
-    float: left;
-}
-
-#main h2 {font-size: 3em;}
-#main span {color: #a0a0a0;} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Блок с фоточками */
-
-/* #overview {
-    float: left;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCRoXVsJ2lcl49SUldQxxG3-VAc7dhvzDqeA&usqp=CAU);
-
-    background-blend-mode: multiply;
-    background-color: rgb(175, 175, 175);
-    background-size: cover;
-    background-attachment: fixed;
-
-    padding: 100px 0;
-    width: 100%;
-    text-align: center;
-    color: #fff;
-}
-
-#overview h2 {font-size: 4em;}
-#overview span {color: #ccc; font-size: 1.5em;}
-
-#overview .img {
-    float: left;
-    width: 30%;
-    margin-right: 5%;
-    margin-top: 50px;
-}
-
-#overview .img:nth-child(odd) {
-    margin-left: 18%;
-}
-
-#overview img {
-    background: #fafafa;
-    padding: 5px;
-    border: 2px solid silver;
-    width: 100%;
-    max-width: 500px;
-}
-
-#overview span {
-    float: left;
-    width: 100%;
-    font-size: 2em;
-    margin-left: 10px;
-}   
-
-@media (max-width: 700px) {
-    #overview .img {
-        width: 80%!important;
-        margin-right: 0!important;
-        margin-left: 10%!important;
-    }
-} */
-
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', serif;
     /* background-color: rgb(148, 148, 148); */
     font-weight: lighter;
 }
-
-/* Блок с контактами */
-/* #contacts {
-    width: 100%;
-    float: left;
-    padding-bottom: 40px;
-    padding-top: 70px;
-    border-top: 4px solid #ccc;
-    background: #f4f4f4;
-}
-
-
-/* #contacts h5 {font-size: 3em; color: #505050;}
-
-
-#form_input {
-    margin-top: 15px;
-    width: 35%;
-    margin-left: 38%;
-    font-style: 1.1em;
-}
-
-#form_input label {
-    color: #505050;
-    cursor: pointer;
-    font-size: 1.4em;
-    font-family: 'Roboto Slab', serif;
-} */
-/* 
-#form_input label > span {
-    color: #e87e7e;
-}
-
-#form_input input,#form_input textarea{
-    margin-bottom: 10px;
-    width: 70%;
-    padding: 10px 2%;
-    border-radius: 7px;
-    border: 2px solid silver;
-    font-size: 0.9em;
-    color: #4a4a4a;
-}
-
-#form_input input:focus ,#form_input textarea:focus {
-    border-color: #333;
-} */
-
-
-/* .btn {
-    float: left;
-    border-radius: 5px;
-    padding: 5px 9px;
-    font-size: 1.2em;
-    background-color: #ec6550;
-    text-shadow: #454545 0 0 2px;
-    cursor: pointer;
-    color: white;
-    font-family: 'Roboto Slab', serif;
-}
-
-.btn:hover {
-    background-color: #c15443;
-} */
-
-
-/* тестовый блок */
-/* #test {
-    float: left;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCRoXVsJ2lcl49SUldQxxG3-VAc7dhvzDqeA&usqp=CAU);
-
-    background-blend-mode: multiply;
-    background-color: rgb(175, 175, 175);
-    background-size: cover;
-    background-attachment: fixed;
-
-    padding: 100px 0;
-    width: 100%;
-    text-align: center;
-    color: #fff;
-}
-
-#test h2 {font-size: 4em;}
-#test span {color: #ccc; font-size: 1.5em;}
-
-#test .photo {
-    float: left;
-    width: 30%;
-    margin-top: 50px;
-    margin-left: 50px;
-}
-
-
-
-#test img {
-    background: #fafafa;
-    padding: 5px;
-    border: 2px solid silver;
-    width: 100%;
-    max-width: 500px;
-}
-
-#test span {
-    float: left;
-    width: 100%;
-    font-size: 2em;
-    margin-left: 10px;
-}   
-
-@media (max-width: 700px) {
-    #overview .photo {
-        width: 80%!important;
-        margin-right: 0!important;
-        margin-left: 10%!important;
-    }
-} */
 
 
 
@@ -1210,8 +977,8 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 450px) and (min-width: 425px)  {
     #sub-menu #img {
-        margin-left: -89em;
-        margin-top: 60px;
+        margin-left: -79em;
+        margin-top: 25px;
     }
     #sub-menu:hover>.sub-menu {
         margin-left: -14em;

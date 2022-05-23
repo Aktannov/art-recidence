@@ -255,7 +255,7 @@ body {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 23px;
     line-height: 45px;
 
     color: #FFFFFF;
@@ -278,25 +278,43 @@ body {
 
 
 @media (max-width: 1440px) and (min-width: 1301px) {
+    #about{
+        text-align: left;
+    }
+    #name h1 {
+    position: absolute;
+    width: 100%;
+    height: 49px;
+    top: 123px;
+    left: -150px; 
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    color: white;
+    text-align: center;
+}
     #text {
         padding-left: 45px;
         position: absolute;
-        width: 616px;
-        height: 421px;
-        /* left: 162px; */
+        width: 456px;
+        height: 421px; 
         top: 235px;
         font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 400;
+        font-style: normal; 
         font-size: 23px;
-        line-height: 44px;
+        line-height: 36px;
         color: #FFFFFF;
 
     }
     
     #photo1 {
-        left: 724px;
-        width: 676px;
+        left: 504px;
+        
+    }
+    #photo1 img{
+        width: 450px;
     }
 
     #woll {
@@ -305,23 +323,29 @@ body {
     }
 
     #polosa {
-        width: 1352px;
+        width: 900px;
         left: 44px;
     }
-
+    #name2 h1{
+        left: -150px;
+    }
 
     #photo2 {
-        width: 677px;
+        
         height: 409px;
         left: 45px;
         top: 1035px;    
     }
+    #photo2 img{
+        width: 450px;
+    }
 
     #text2 {
-        padding-left: 768px;
-        width: 621px;
+        padding-left: 520px;
+        width: 450px;
         height: 472px;
         font-size: 23px;
+        line-height: 36px;
     }
 
     #woll2 {
@@ -329,12 +353,12 @@ body {
     }
 
     #polosa2 {
-        width: 1352px;
+        width: 900px;
         left: 44px;
     }
 
     #i {
-        width: 1346px;
+        width: 900px;
         left: 55px;
         font-size: 23px;
     }
@@ -461,6 +485,7 @@ body {
     #name h1 {
         top: 72px;
           font-size: 32px;
+ 
     }
 
     #photo1 {
@@ -469,20 +494,20 @@ body {
     }
 
     #photo1 img {
-        width: 713px;
+        width: 710px;
     }
 
     #text {
         padding-left: 31px;
-        width: 713px;
-        top: 715px;
-        font-size: 32px;
+        width: 705px;
+        top: 720px;
+        font-size: 33px;
     }
 
     #polosa {
-        width: 701px;
-        left: 31px;
-        top: 1339px;
+        width: 730px;
+        left: 20px;
+        top: 1370px;
     }
 
 
@@ -501,25 +526,25 @@ body {
     }
 
     #photo2 img {
-        width: 713px;
+        width: 710px;
     }
 
     #text2 {
-        padding-left: 36px;
-        width: 713px;
-        top: 1964px;
-        font-size: 32px;
+        padding-left: 30px;
+        width: 705px;
+        top: 1950px;
+        font-size: 33px;
     }
 
     #polosa2 {
-        width: 701px;
-        left: 31px;
-        top: 2453px;
+        width: 730px;
+        left: 20px;
+        top: 2482px;
     }
 
     #i {
-        width: 684px;
-        left: 40px;
+        width: 720px;
+        left: 20px;
         top: 2469px;
     }
 
@@ -535,7 +560,7 @@ body {
     }
 }
 
-@media (max-width: 500px) and (min-width: 350px){ 
+@media (max-width: 500px) and (min-width: 380px){ 
     body, html { 
      height: 4400px; 
  } 
@@ -549,7 +574,7 @@ body {
 
  #name h1 { 
      top: 91px;
-     left: 175px; 
+     left: 1px; 
      font-size: 32px; 
  } 
 
@@ -559,21 +584,21 @@ body {
  } 
 
  #photo1 img { 
-     width: 680px; 
+     width: 380px; 
  } 
 
  #text { 
      padding-left: 31px; 
-     width: 680px; 
-     top: 700px;
+     width: 380px; 
+     top: 450px;
      text-align: left; 
-     font-size: 32px; 
+     font-size: 25px; 
  } 
 
  #polosa { 
-     width: 701px; 
+     width: 380px; 
      left: 31px; 
-     top: 1390px; 
+     top: 1380px; 
  } 
 
 
@@ -584,36 +609,132 @@ body {
 
  #name2 h1 { 
      top: 1430px;
-     left: 175px;
+     left: 1px;
  } 
 
  #photo2 { 
-     left: 28px; 
-     top: 1521px; 
+    left: 28px; 
+    top: 1521px; 
+    width: 0px;
  } 
 
  #photo2 img { 
-     width: 680px; 
+     width: 380px; 
  } 
 
  #text2 { 
      padding-left: 36px; 
-     width: 680px; 
+     width: 380px; 
      text-align: left; 
-     top: 1972px; 
-     font-size: 32px; 
+     top: 1772px; 
+     font-size: 25px; 
  } 
 
  #polosa2 { 
-     width: 701px; 
+     width:380px; 
      left: 31px; 
-     top: 2486px; 
+     top: 2476px; 
  } 
 
  #i { 
-     width: 684px; 
+     width: 380px; 
      left: 40px; 
      top: 2469px; 
+ } 
+
+ #woll3 { 
+     width: 680px; 
+     height: 185px; 
+     left: -19px; 
+     top: 1712px; 
+ } 
+
+ #about {
+    display: none;
+ }
+
+} 
+@media (max-width: 400px) and (min-width: 350px){ 
+    body, html { 
+    width: 100%;
+    height: 4400px; 
+ } 
+
+ #woll { 
+     width: 346px; 
+     height: 50px; 
+     top: 90px;
+     left: 191px; 
+ } 
+
+ #name h1 { 
+     top: 91px;
+     left: 1px; 
+     font-size: 32px; 
+ } 
+
+ #photo1 { 
+     left: 29px; 
+     top: 171px;  
+ } 
+
+ #photo1 img { 
+     width: 330px; 
+ } 
+
+ #text { 
+     padding-left: 31px; 
+     width: 330px; 
+     top: 430px;
+     text-align: left; 
+     font-size: 23px; 
+ } 
+
+ #polosa { 
+     width: 330px; 
+     left: 31px; 
+     top: 1380px; 
+ } 
+
+
+ #woll2 { 
+     left: 261px;
+     top: 1426px;
+ } 
+
+ #name2 h1 { 
+     top: 1430px;
+     left: 1px;
+ } 
+
+ #photo2 { 
+    left: 28px;
+    top: 1521px;
+    width: 0px;
+ } 
+
+ #photo2 img { 
+     width: 330px; 
+ } 
+
+ #text2 { 
+     padding-left: 36px; 
+     width: 330px; 
+     text-align: left; 
+     top: 1752px; 
+     font-size: 23px; 
+ } 
+
+ #polosa2 { 
+     width:330px; 
+     left: 31px; 
+     top: 2456px; 
+ } 
+
+ #i { 
+    width: 324px;
+    left: 40px;
+    top: 2469px;
  } 
 
  #woll3 { 
@@ -642,31 +763,32 @@ body {
 
  #name h1 { 
      top: 85px; 
-     left: 200px; 
-     font-size: 32px; 
+     left: 0px; 
+     font-size: 28px; 
  } 
 
  #photo1 { 
-     left: 29px; 
+     left: 15px; 
      top: 171px;  
  } 
 
  #photo1 img { 
-     width: 660px; 
+     width: 290px; 
  } 
 
  #text { 
-     padding-left: 31px; 
-     width: 660px; 
-     top: 690px; 
+     padding-left: 15px; 
+     width: 290px; 
+     top: 400px; 
+     line-height: 32px;
      text-align: left; 
-     font-size: 32px; 
+     font-size: 22px; 
  } 
 
  #polosa { 
-     width: 701px; 
-     left: 31px; 
-     top: 1434px; 
+     width: 290px; 
+     left: 15px; 
+     top: 1200px; 
  } 
 
 
@@ -676,37 +798,39 @@ body {
  } 
 
  #name2 h1 { 
-     top: 1484px; 
-     left: 200px; 
+     top: 1220px; 
+     left: 0px; 
  } 
 
  #photo2 { 
-     left: 28px; 
-     top: 1583px;
+    width: 0px;
+    left: 15px;
+    top: 1320px;
  } 
 
  #photo2 img { 
-     width: 660px; 
+     width: 290px; 
  } 
 
  #text2 { 
-     padding-left: 36px; 
-     width: 660px; 
+     padding-left:15px; 
+     width: 290px; 
      text-align: left; 
-     top: 2024px; 
-     font-size: 32px; 
+     line-height: 32px;
+     top: 1550px; 
+     font-size: 22px; 
  } 
 
  #polosa2 { 
-     width: 701px; 
-     left: 31px; 
-     top: 2561px; 
+     width:290px; 
+     left: 15px; 
+     top: 2150px; 
  } 
 
  #i { 
-     width: 684px; 
-     left: 40px; 
-     top: 2559px;
+     width: 290px; 
+     left: 20px; 
+     top: 2159px;
  } 
 
  #woll3 { 
